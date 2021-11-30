@@ -1,13 +1,14 @@
 import React from "react";
+import Button from "@mui/material/Button";
 
 const Header: React.FC = () => {
   return (
-    <div>
+    <div className="App">
       <h1>mauction</h1>
-      <button>Buy</button>
-      <button>Sell</button>
-      <button>About Us</button>
-      <button>Login</button>
+      <Button>Buy</Button>
+      <Button>Sell</Button>
+      <Button>About Us</Button>
+      <Button>Login</Button>
     </div>
   );
 };
