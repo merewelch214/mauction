@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import Logo from "./logo";
 
 const Header: React.FC = () => {
   return (
     <div className="App">
-      <h1>mauction</h1>
+      <Logo />
       <Button>Buy</Button>
       <Button>Sell</Button>
       <Button>About Us</Button>
