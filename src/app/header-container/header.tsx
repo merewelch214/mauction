@@ -1,16 +1,17 @@
 import React from "react";
-import Button from "@mui/material/Button";
 import Logo from "./logo";
+import NavButtons from "./nav-buttons";
+import SearchBar from "./search-bar";
 
 const Header: React.FC = () => {
   return (
-    <div className="App">
-      <Logo />
-      <Button>Buy</Button>
-      <Button>Sell</Button>
-      <Button>About Us</Button>
-      <Button>Login</Button>
-    </div>
+    <>
+      <div className="header-container">
+        <Logo />
+        <NavButtons />
+      </div>
+      <SearchBar />
+    </>
   );
 };
 
